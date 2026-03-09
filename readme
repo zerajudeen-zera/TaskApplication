@@ -1,0 +1,15 @@
+Task Management Flask App
+A full-stack Flask application with MySQL backend, Dockerized environment, and integrated authentication, observability, and CI/CD pipelines. Designed for secure, scalable deployments on AWS EKS with Terraform-managed infrastructure.
+
+Features
+- User authentication (signup, login, session management)
+- CRUD operations for tasks
+- MySQL database integration with migrations
+- RESTful API endpoints
+- Bootstrap-styled UI for responsive design
+- Docker Compose for local development
+- Observability stack: Prometheus, Grafana, Loki, Jaeger, Datadog
+- OpenTelemetry tracing for all CRUD routes
+- Health endpoints (liveness, readiness, unified health checks)
+
+
