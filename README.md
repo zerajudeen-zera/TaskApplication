@@ -3,6 +3,22 @@
 
 ![alt text](https://copilot.microsoft.com/th/id/BCO.04e97351-fcc4-4490-8e75-9b69f432542a.png)
 
+To Run the application -
+
+# Clone repository
+git clone <repo-url>
+cd flask-task-app
+
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+flask run
+
 <h1>Features</h1>
     - User authentication (signup, login, session management)
     - CRUD operations for tasks
