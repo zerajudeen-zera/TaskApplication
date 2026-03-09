@@ -1,8 +1,15 @@
 <h1>Task Management Flask App</h1>
-A full-stack Flask application with MySQL backend, Dockerized environment, and integrated authentication, observability, and CI/CD pipelines. Designed for secure, scalable deployments on AWS EKS with Terraform-managed infrastructure.
+    A full-stack Flask application with MySQL backend, Dockerized environment, and integrated authentication, observability, and CI/CD pipelines. Designed for secure, scalable deployments on AWS EKS with Terraform-managed infrastructure.
 
 ![alt text](https://copilot.microsoft.com/th/id/BCO.04e97351-fcc4-4490-8e75-9b69f432542a.png)
 
+<h1>To Run the application </h1>
+    - git clone <repo-url>
+    - cd flask-task-app
+    - python3 -m venv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+    - flask run
 
 <h1>Features</h1>
     - User authentication (signup, login, session management)
@@ -28,7 +35,3 @@ A full-stack Flask application with MySQL backend, Dockerized environment, and i
     - Loki + Promtail: Log aggregation
     - Jaeger: Distributed tracing
     - Datadog (ddtrace): Unified monitoring
-
-
-
-
