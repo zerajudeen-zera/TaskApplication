@@ -5,7 +5,7 @@
 
 <h1>To Run the application </h1>
     - git clone <repo-url>
-    - cd flask-task-app
+    - cd TaskApplication
     - python3 -m venv venv
     - source venv/bin/activate
     - pip install -r requirements.txt
